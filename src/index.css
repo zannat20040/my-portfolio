@@ -5,3 +5,10 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.Typewriter span {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #6EE7B7;
+}
