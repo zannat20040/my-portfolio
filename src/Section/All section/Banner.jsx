@@ -3,11 +3,14 @@ import Typewriter from "typewriter-effect";
 import banner from "../../assets/banner.png";
 const Banner = () => {
   return (
-    <div className="min-h-screen py-40">
+    <div className="min-h-screen py-20">
       <div className="grid grid-cols-2 items-center justify-between mx-auto">
         <div className=" text-white">
           <p className="font-medium text-gray-400">Welcome to my world</p>
-          <h1 className="text-5xl font-bold mt-5">Hi, I am a </h1>
+          <h1 className="text-5xl font-bold mt-5">Hi, I am <span className="text-emerald-300">Zannatul Ferdousi Hema</span></h1>
+          
+          <h1 className="text-5xl font-bold mt-5 flex gap-4">a
+          
           <Typewriter
             options={{
               strings: ["Junior Web Developer", "Front-end Developer"],
@@ -15,6 +18,8 @@ const Banner = () => {
               loop: true,
             }}
           />
+          </h1>
+          
           <h1 className="text-5xl font-bold mt-3 text-emerald-300"></h1>
           <p className="pb-6">
             Passionate and innovative web developer specializing in crafting
