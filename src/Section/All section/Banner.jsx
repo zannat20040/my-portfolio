@@ -9,7 +9,6 @@ const Banner = () => {
       <div className="max-w-4xl">
         <div className=" text-white">
           <p className="text-emerald-300">Hi, my name is </p>
-          {/* <h1 className="text-5xl font-bold mt-5"> <span className="">Zannatul Ferdousi Hema</span></h1> */}
           <h1 className="text-5xl font-bold mt-5 flex gap-4">
             <Typewriter
               options={{

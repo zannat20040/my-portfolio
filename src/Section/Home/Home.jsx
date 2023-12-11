@@ -54,7 +54,7 @@ const Home = () => {
         <div className="col-span-4">
           <Banner></Banner>
           <Aboutme></Aboutme>
-          <Skills
+          <Skills></Skills>
           {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">

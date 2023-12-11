@@ -5,19 +5,21 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Aboutme = () => {
   return (
-    <>
+   
       <div id="sectionToScroll">
         <div className="">
           <p className="font-medium text-2xl text-emerald-400">01. Know me</p>
         </div>
         <div className="hero mt-10">
           <div className="hero-content p-0 flex-col lg:flex-row-reverse">
-            <img
-              src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+            
+            <div>
+                <div className="animated-element">
+                <img
+              src="https://i.ibb.co/QMmdXth/banner.png"
               className="max-w-sm rounded-lg shadow-2xl"
             />
-            <div>
-                <div className="box"></div>
+                </div>
             </div>
             <div>
               <p className="py-6">
@@ -55,7 +57,7 @@ const Aboutme = () => {
           </div>
         </div>
       </div>
-    </>
+ 
   );
 };
 
