@@ -33,21 +33,21 @@ const Banner = () => {
           </p>
         </div>
         <div className="flex gap-4">
-          <button className="btn border-0 text-black btn-outline bg-emerald-300">
-            Get in touch
+          <button className="btn border-0 btn-wide  bg-slate-950 shadow-lg rounded-md p-3 text-white">
+            Download resume
           </button>
+
           <button className="btn border-0 text-black btn-outline bg-emerald-300">
             <Link
               to="sectionToScroll"
               spy={true}
               smooth={true}
-              offset={-70} 
+              offset={-70}
               duration={500}
             >
               <FaAngleDown />
             </Link>
           </button>
-         
         </div>
       </div>
     </div>

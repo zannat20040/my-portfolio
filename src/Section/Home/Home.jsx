@@ -6,6 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Aboutme from "../All section/Aboutme";
+import Skills from "../All section/Skills";
 
 const Home = () => {
   const sideNav = (
@@ -53,6 +54,7 @@ const Home = () => {
         <div className="col-span-4">
           <Banner></Banner>
           <Aboutme></Aboutme>
+          <Skills
           {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">

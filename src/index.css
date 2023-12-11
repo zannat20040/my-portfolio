@@ -12,8 +12,22 @@
     margin-top: 12px;
     /* color: rgb(110, 231, 183); */
 }
-/* 
-.banner-right {
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    background-color: #6ee7b7c5;
-} */
+
+.box {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+
+.box:hover {
+    clip-path: circle(25%);
+}
+
+@keyframes circle {
+    0% {
+        clip-path: circle(75%);
+    }
+
+    100% {
+        clip-path: circle(25%);
+    }
+}
