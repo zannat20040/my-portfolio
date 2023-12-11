@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
+import Aboutme from "../All section/Aboutme";
 
 const Home = () => {
   const sideNav = (
@@ -51,7 +52,8 @@ const Home = () => {
         </div>
         <div className="col-span-4">
           <Banner></Banner>
-          <Feature></Feature>
+          <Aboutme></Aboutme>
+          {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">
           <ul className="flex-col items-center menu rounded-box fixed top-28 flex  gap-4   text-2xl z-30">
