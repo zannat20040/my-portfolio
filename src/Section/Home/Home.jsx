@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Aboutme from "../All section/Aboutme";
 import Skills from "../All section/Skills";
+import Myproject from "../All section/Myproject";
 
 const Home = () => {
   const sideNav = (
@@ -55,6 +56,7 @@ const Home = () => {
           <Banner></Banner>
           <Aboutme></Aboutme>
           <Skills></Skills>
+          <Myproject></Myproject>
           {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
 }
 
 .Typewriter span {
@@ -28,7 +28,9 @@
     }
 }
 
+
 .animated-element {
+    /* color: #0000009c; */
     width: 100%;
     height: 100%;
     border:30px solid #6ee7b7;
