@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "../Home/Home";
 import Navbar from "../Nabvar/Navbar";
+import Footer from "../All section/Footer";
 const Main = () => {
  
   return (
@@ -9,6 +10,9 @@ const Main = () => {
         <Navbar></Navbar>
       </div>
       <Home></Home>
+      <div  className=" mt-24 ">
+        <Footer></Footer>
+      </div>
     </>
   );
 };

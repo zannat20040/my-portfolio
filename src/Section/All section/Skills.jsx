@@ -22,7 +22,7 @@ const Skills = () => {
       ">
         <div className="card mt-20 bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
-            <h2 className="card-title text-emerald-400">Expert</h2>
+            <h2 className="card-title text-emerald-400">Font-end</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
 
             <div  className="flex gap-3 flex-wrap mt-6">
@@ -37,7 +37,7 @@ const Skills = () => {
         </div>
         <div className="card  mt-20 bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
-            <h2 className="card-title text-emerald-400">Comfortable</h2>
+            <h2 className="card-title text-emerald-400">Back-end</h2>
             <p className="flex-grow-0">If a dog chews shoes whose shoes does he choose?</p>
 
             <div  className="flex gap-3 flex-wrap mt-6">

@@ -9,6 +9,7 @@ import Aboutme from "../All section/Aboutme";
 import Skills from "../All section/Skills";
 import Myproject from "../All section/Myproject";
 import MoreAboutMe from "../All section/MoreAboutMe";
+import Contact from "../All section/Contact";
 
 const Home = () => {
   const sideNav = (
@@ -59,6 +60,7 @@ const Home = () => {
           <Skills></Skills>
           <Myproject></Myproject>
           <MoreAboutMe></MoreAboutMe>
+          <Contact></Contact>
           {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">
