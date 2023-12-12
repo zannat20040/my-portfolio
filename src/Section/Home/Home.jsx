@@ -46,28 +46,15 @@ const Home = () => {
   );
   return (
     <div className="container mx-auto relative">
-      <div className="grid grid-cols-5  md:grid-cols-6 gap-20  ">
+      <div className="grid grid-cols-5  md:grid-cols-6 gap-20 px-4 ">
         <div className="">
-          <ul className="flex-col items-center menu rounded-box fixed bottom-3 flex justify-center gap-4   text-2xl z-30">
-            <div className="md:hidden flex flex-col">
-              <button className="btn btn-outline border-0 text-black bg-accent text-2xl ">
-                <Link
-                  to="scrollToUp"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                  <IoArrowUpCircleOutline />
-                </Link>
-              </button>
-              {sideNav2}
-            </div>
+          <ul className=" hidden flex-col items-center menu rounded-box fixed bottom-3 md:flex justify-center gap-4   text-2xl z-30">
+         
             {sideNav}
             <div className="h-20 md:h-40 bg-accent w-[2px]"></div>
           </ul>
         </div>
-        <div className="col-span-4 md:col-span-4">
+        <div className="col-span-5 md:col-span-4">
           <Banner></Banner>
           <Aboutme></Aboutme>
           <Skills></Skills>

@@ -44,7 +44,7 @@ const Aboutme = () => {
           <div className="order-first animated-element lg:order-last ">
             <img
               src="https://i.ibb.co/QMmdXth/banner.png"
-              className="rounded-lg shadow-2xl bg-accent"
+              className="rounded-lg shadow-2xl w-4/5 md:w-full bg-accent"
             />
           </div>
         </div>

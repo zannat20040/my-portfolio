@@ -38,7 +38,7 @@ const MoreAboutMe = () => {
         <div className="flex flex-col w-full lg:flex-row gap-6">
 
           {showMore === "Education" && (
-            <div className="grid  card w-full  gap-3 ">
+            <div className=" card w-full  gap-3 ">
               <h1 className="text-3xl font-bold mt-5 text-white">Education</h1>
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
