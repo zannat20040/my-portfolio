@@ -1,5 +1,7 @@
 import React from 'react';
 import Project from './Project/Project';
+import Project2 from './Project/Project2';
+import Project3 from './Project/Project3';
 
 const Myproject = () => {
     return (
@@ -9,6 +11,8 @@ const Myproject = () => {
       </div>
       <div>
        <Project></Project>
+       <Project2></Project2>
+       <Project3></Project3>
       </div>
         </div>
     );

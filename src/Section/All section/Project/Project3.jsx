@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 import pic from "../../../assets/project1.png";
-const Project = () => {
-  return (
-    <div className="hero mt-20">
+
+const Project3 = () => {
+    return (
+        <div className="hero mt-20">
       <div className="hero-content flex-col gap-10 lg:flex-row">
         <div className="group relative text-center">
           <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
@@ -35,7 +36,7 @@ const Project = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default Project;
+export default Project3;

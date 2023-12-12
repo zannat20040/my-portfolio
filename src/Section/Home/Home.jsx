@@ -57,6 +57,7 @@ const Home = () => {
           <Aboutme></Aboutme>
           <Skills></Skills>
           <Myproject></Myproject>
+          
           {/* <Feature></Feature> */}
         </div>
         <div className=" flex justify-end -z-30">

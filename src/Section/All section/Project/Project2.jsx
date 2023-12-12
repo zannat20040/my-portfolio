@@ -1,12 +1,11 @@
 import React from "react";
 import pic from "../../../assets/project1.png";
-const Project = () => {
+
+
+const Project2 = () => {
   return (
     <div className="hero mt-20">
       <div className="hero-content flex-col gap-10 lg:flex-row">
-        <div className="group relative text-center">
-          <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
-        </div>
         <div className="">
           <div className="flex gap-2">
             <p className=" px-6 text-emerald-300 border-emerald-300 border ">
@@ -33,9 +32,12 @@ const Project = () => {
             </button>
           </div>
         </div>
+        <div className="group relative text-center">
+          <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
+        </div>
       </div>
     </div>
   );
 };
 
-export default Project;
+export default Project2;
