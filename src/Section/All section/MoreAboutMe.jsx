@@ -48,7 +48,7 @@ const MoreAboutMe = () => {
                     <span>(2021 - 2024)</span>
                   </div>
                   <p>University of SOuth Asia </p>
-                  <button className="bg-emerald-300 text-black px-4 py-1 w-fit">
+                  <button className="bg-accent text-black px-4 py-1 w-fit">
                     Runing
                   </button>
                 </div>
@@ -62,7 +62,7 @@ const MoreAboutMe = () => {
                     <span>(2017 - 2019)</span>
                   </div>
                   <p>MileStone Collage </p>
-                  <button className="bg-emerald-300 text-black px-4 py-1 w-fit">
+                  <button className="bg-accent text-black px-4 py-1 w-fit">
                     4.42 / 5.00
                   </button>
                 </div>
@@ -76,7 +76,7 @@ const MoreAboutMe = () => {
                     <span>(2015 - 2017)</span>
                   </div>
                   <p>National Ideal School</p>
-                  <button className="bg-emerald-300 text-black px-4 py-1 w-fit">
+                  <button className="bg-accent text-black px-4 py-1 w-fit">
                     5.00 / 5.00
                   </button>
                 </div>
