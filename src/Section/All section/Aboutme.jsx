@@ -10,16 +10,8 @@ const Aboutme = () => {
         <p className="font-medium text-2xl text-accent">01. Know me</p>
       </div>
       <div className="hero mt-10">
-        <div className="hero-content p-0 flex-col lg:flex-row-reverse">
-          <div>
-            <div className="animated-element">
-              <img
-                src="https://i.ibb.co/QMmdXth/banner.png"
-                className="md:max-w-sm rounded-lg shadow-2xl"
-              />
-            </div>
-          </div>
-          <div>
+        <div className="hero-content p-0 grid grid-cols-1 justify-between lg:grid-cols-2 gap-6">
+          <div className="order-last lg:order-first">
             <p className="py-6">
               I'm a web developer with a passion for transforming ideas into
               user-friendly and visually appealing websites. Committed to
@@ -39,7 +31,6 @@ const Aboutme = () => {
               projects. Let's work together to bring your digital ideas to life
               and create something truly remarkable!
             </p>
-
             <div>
               <p className="text-accent">Best skills on </p>
             </div>
@@ -49,6 +40,12 @@ const Aboutme = () => {
               <IoLogoJavascript className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
               <FaReact className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
             </div>
+          </div>
+          <div className="order-first animated-element lg:order-last ">
+            <img
+              src="https://i.ibb.co/QMmdXth/banner.png"
+              className="rounded-lg shadow-2xl bg-accent"
+            />
           </div>
         </div>
       </div>
