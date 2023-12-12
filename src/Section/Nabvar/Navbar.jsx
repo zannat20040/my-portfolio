@@ -1,5 +1,4 @@
 import React from "react";
-import {  NavLink } from "react-router-dom";
 import resume from "../../assets/Resume of Hema.pdf";
 import { Link } from "react-scroll";
 

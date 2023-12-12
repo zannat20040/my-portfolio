@@ -48,21 +48,20 @@ const Home = () => {
   );
   return (
     <div className="container mx-auto relative">
-      <div className="grid grid-cols-6 gap-20  ">
+      <div className="grid grid-cols-5 md:grid-cols-6 gap-20  ">
         <div className="">
           <ul className="flex-col items-center menu rounded-box fixed bottom-3 flex justify-center gap-4   text-2xl z-30">
             {sideNav}
             <div className="h-40 bg-emerald-300 w-[2px]"></div>
           </ul>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-3 md:col-span-4">
           <Banner></Banner>
           <Aboutme></Aboutme>
           <Skills></Skills>
           <Myproject></Myproject>
           <MoreAboutMe></MoreAboutMe>
           <Contact></Contact>
-          {/* <Feature></Feature> */}
         </div>
         <div className="flex justify-end">
           <ul className="flex-col items-center  menu rounded-box fixed top-28 flex justify-center gap-4   text-2xl z-30">
