@@ -41,11 +41,14 @@
 
 .image-container {
     height: 400px; 
-    width: 300px; 
+    width: 100%; 
     overflow: hidden;
     background-color: black;   
     border-radius: 8px; 
 }
+/* .image-container .img-2{
+    width: 250px; 
+} */
 
 .image-container .image1 {
     background-image: url(./assets/project1.png);

@@ -3,7 +3,7 @@ import pic from "../../../assets/project1.png";
 
 const Project3 = () => {
   return (
-    <div className="hero mt-20">
+    <div className="hero mt-14">
       <div className="hero-content flex-col gap-10 lg:flex-row">
        
         <div className="">
@@ -34,15 +34,21 @@ const Project3 = () => {
             </p>
           </div>
           <div className="flex gap-3 mt-3 flex-wrap">
-            <button className=" btn py-4 px-16 bg-slate-950 text-white  rounded-md ">
-              Client code
-            </button>
-            <button className=" btn py-4 px-16 bg-slate-950 text-white  rounded-md ">
-              Server code
-            </button>
-            <button className=" btn  py-2 px-16 bg-slate-950 text-white  rounded-md ">
-              Live
-            </button>
+          <a href="https://github.com/zannat20040/Worky-job-market" target="_blank">
+              <button className="border btn  py-4 px-16 bg-slate-950 text-white  rounded-md ">
+                Client code
+              </button>
+            </a>
+            <a href="https://github.com/zannat20040/Worky-server" target="_blank">
+              <button className="border btn  py-4 px-16 bg-slate-950 text-white  rounded-md ">
+                Server code
+              </button>
+            </a>
+            <a href="https://worky-7a37f.web.app/" target="_blank">
+              <button className="border btn py-2 px-16 bg-slate-950 text-white  rounded-md ">
+                Live
+              </button>
+            </a>
           </div>
         </div>
         <div className="image-container ">
