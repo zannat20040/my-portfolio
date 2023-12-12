@@ -14,7 +14,7 @@ const MoreAboutMe = () => {
 
   return (
     <div>
-      <div className="mt-32 flex   justify-between items-center " id="scrollToSkils">
+      <div className="mt-20 flex flex-wrap gap-4 flex-col-reverse lg:flex-row justify-between lg:items-center " id="scrollToSkils">
         <div>
           <button
             onClick={() => ShowEducation("Education")}
@@ -29,25 +29,26 @@ const MoreAboutMe = () => {
             Technical Skills
           </button>
         </div>
-        <p className="font-medium text-2xl text-accent text-end">
+        <p className="font-medium text-2xl text-accent">
           04. More About me
         </p>
       </div>
 
-      <div className="mt-20">
+      <div className="mt-14">
         <div className="flex flex-col w-full lg:flex-row gap-6">
+
           {showMore === "Education" && (
             <div className="grid  card w-full  gap-3 ">
               <h1 className="text-3xl font-bold mt-5 text-white">Education</h1>
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
-                  <div className="flex gap-2 items-end">
+                  <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
-                      BSc in Computer Science{" "}
+                      BSC in Computer Science{" "}
                     </h2>
                     <span>(2021 - 2024)</span>
                   </div>
-                  <p>University of SOuth Asia </p>
+                  <p>University of South Asia </p>
                   <button className="bg-accent text-black px-4 py-1 w-fit">
                     Runing
                   </button>
@@ -55,13 +56,13 @@ const MoreAboutMe = () => {
               </div>
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
-                  <div className="flex gap-2 items-end">
+                  <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
                       Higher Secondary School Certificate
                     </h2>
                     <span>(2017 - 2019)</span>
                   </div>
-                  <p>MileStone Collage </p>
+                  <p>Milestone Collage </p>
                   <button className="bg-accent text-black px-4 py-1 w-fit">
                     4.42 / 5.00
                   </button>
@@ -69,7 +70,7 @@ const MoreAboutMe = () => {
               </div>
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
-                  <div className="flex gap-2 items-end">
+                  <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
                       Secondary School Certificate{" "}
                     </h2>
@@ -84,13 +85,12 @@ const MoreAboutMe = () => {
             </div>
           )}
 
-
           {showMore === "Skills" && (
             <div className="grid gap-3 w-full">
               <h1 className="text-3xl font-bold mt-5 text-white">
                 Technial Skills
               </h1>
-              <div className="grid grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                <div>
                <div className="">
                   <p className="text-accent font-medium text-lg">HTML5</p>
