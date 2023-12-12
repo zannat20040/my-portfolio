@@ -29,7 +29,7 @@ const MoreAboutMe = () => {
             Technical Skills
           </button>
         </div>
-        <p className="font-medium text-2xl text-emerald-400 text-end">
+        <p className="font-medium text-2xl text-accent text-end">
           04. More About me
         </p>
       </div>
@@ -42,7 +42,7 @@ const MoreAboutMe = () => {
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex gap-2 items-end">
-                    <h2 className="card-title text-emerald-300">
+                    <h2 className="card-title text-accent">
                       BSc in Computer Science{" "}
                     </h2>
                     <span>(2021 - 2024)</span>
@@ -56,7 +56,7 @@ const MoreAboutMe = () => {
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex gap-2 items-end">
-                    <h2 className="card-title text-emerald-300">
+                    <h2 className="card-title text-accent">
                       Higher Secondary School Certificate
                     </h2>
                     <span>(2017 - 2019)</span>
@@ -70,7 +70,7 @@ const MoreAboutMe = () => {
               <div className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex gap-2 items-end">
-                    <h2 className="card-title text-emerald-300">
+                    <h2 className="card-title text-accent">
                       Secondary School Certificate{" "}
                     </h2>
                     <span>(2015 - 2017)</span>
@@ -93,7 +93,7 @@ const MoreAboutMe = () => {
               <div className="grid grid-cols-2 gap-5">
                <div>
                <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">HTML5</p>
+                  <p className="text-accent font-medium text-lg">HTML5</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="90"
@@ -101,7 +101,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">CSS3</p>
+                  <p className="text-accent font-medium text-lg">CSS3</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="90"
@@ -109,7 +109,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">
+                  <p className="text-accent font-medium text-lg">
                     Javascript
                   </p>
                   <progress
@@ -119,7 +119,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">
+                  <p className="text-accent font-medium text-lg">
                     Tailwind
                   </p>
                   <progress
@@ -129,7 +129,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">React</p>
+                  <p className="text-accent font-medium text-lg">React</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="70"
@@ -137,7 +137,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">Node</p>
+                  <p className="text-accent font-medium text-lg">Node</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="55"
@@ -148,7 +148,7 @@ const MoreAboutMe = () => {
 
                 <div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">
+                  <p className="text-accent font-medium text-lg">
                     Express
                   </p>
                   <progress
@@ -158,7 +158,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">
+                  <p className="text-accent font-medium text-lg">
                     MongoDB
                   </p>
                   <progress
@@ -168,7 +168,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">Git</p>
+                  <p className="text-accent font-medium text-lg">Git</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="65"
@@ -176,7 +176,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">Github</p>
+                  <p className="text-accent font-medium text-lg">Github</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="65"
@@ -184,7 +184,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">Figma</p>
+                  <p className="text-accent font-medium text-lg">Figma</p>
                   <progress
                     className="progress w-full progress-accent"
                     value="80"
@@ -192,7 +192,7 @@ const MoreAboutMe = () => {
                   ></progress>
                 </div>
                 <div className="">
-                  <p className="text-emerald-300 font-medium text-lg">
+                  <p className="text-accent font-medium text-lg">
                     Vs Code
                   </p>
                   <progress

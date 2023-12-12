@@ -7,7 +7,7 @@ const Project2 = () => {
       <div className="hero-content flex-col gap-10 lg:flex-row">
         <div className="">
           
-          <h1 className=" mt-4 text-5xl font-bold text-emerald-300">
+          <h1 className=" mt-4 text-5xl font-bold text-accent">
             Brand Shop
           </h1>
           <p className="py-6">
@@ -15,19 +15,19 @@ const Project2 = () => {
             lovers, skincare aficionado with various functionality.
           </p>
           <div className="flex gap-2 flex-wrap">
-            <p className="  text-emerald-300 ">
+            <p className="  text-accent ">
               Tailwind
             </p>
-            <p className=" text-emerald-300 ">
+            <p className=" text-accent ">
               React
             </p>
-            <p className="  text-emerald-300  ">
+            <p className="  text-accent  ">
               Node.js
             </p>
-            <p className="text-emerald-300 ">
+            <p className="text-accent ">
               Express.js
             </p>
-            <p className=" text-emerald-300 ">
+            <p className=" text-accent ">
               Mongodb
             </p>
           </div>

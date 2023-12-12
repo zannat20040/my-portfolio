@@ -9,17 +9,17 @@ const Project = () => {
         </div>
         <div className="">
           
-          <h1 className=" mt-4 text-5xl font-bold text-emerald-300">
+          <h1 className=" mt-4 text-5xl font-bold text-accent">
             Wedding Planner
           </h1>
           <p className="py-6">
           It is a comprehensive wedding planning platform, designed to help couples to plan their dream wedding with ease and efficiency. 
           </p>
           <div className="flex gap-2">
-            <p className=" px-6 text-emerald-300  ">
+            <p className=" px-6 text-accent">
               Tailwind
             </p>
-            <p className=" px-6 text-emerald-300  ">
+            <p className=" px-6 text-accent">
               React
             </p>
           </div>

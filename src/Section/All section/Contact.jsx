@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="scrollToContact">
       <div>
-        <p className="font-medium text-2xl text-emerald-400 mt-28 mb-10">
+        <p className="font-medium text-2xl text-accent mt-28 mb-10">
           04. Contact with me
         </p>
       </div>

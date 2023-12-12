@@ -8,7 +8,7 @@ const Project3 = () => {
        
         <div className="">
          
-          <h1 className=" mt-4 text-5xl font-bold text-emerald-300">
+          <h1 className=" mt-4 text-5xl font-bold text-accent">
             Job Market
           </h1>
           <p className="py-6">
@@ -17,19 +17,19 @@ const Project3 = () => {
             fit for their team or company
           </p>
           <div className="flex gap-2 flex-wrap">
-            <p className="  text-emerald-300  ">
+            <p className="  text-accent  ">
               Tailwind
             </p>
-            <p className="  text-emerald-300  ">
+            <p className="  text-accent  ">
               React
             </p>
-            <p className=" text-emerald-300  ">
+            <p className=" text-accent  ">
               Node
             </p>
-            <p className=" text-emerald-300 ">
+            <p className=" text-accent ">
               Express
             </p>
-            <p className="  text-emerald-300 ">
+            <p className="  text-accent ">
               Mongodb
             </p>
           </div>
