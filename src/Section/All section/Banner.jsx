@@ -5,14 +5,14 @@ import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center">
+    <div className="py-56 flex flex-col justify-center">
       <div className="max-w-4xl">
         <div className=" text-white">
           <p className="text-emerald-300">Hi, my name is </p>
           <h1 className="text-5xl font-bold mt-5 flex gap-4">
             <Typewriter
               options={{
-                strings: ["Zannatul Ferdousi Hema"],
+                strings: ["Zannatul Ferdousi Hema", "A Junior Web Developer"],
                 autoStart: true,
                 loop: true,
               }}
