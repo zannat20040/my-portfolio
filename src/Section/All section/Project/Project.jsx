@@ -4,8 +4,8 @@ const Project = () => {
   return (
     <div className="hero mt-20">
       <div className="hero-content flex-col gap-10 lg:flex-row">
-        <div className="group relative text-center">
-          <img src={pic} className="max-w-sm rounded-lg shadow-2xl" />
+        <div className="image-container ">
+          <div className="image1"></div>
         </div>
         <div className="">
           <div className="flex gap-2">
@@ -17,11 +17,10 @@ const Project = () => {
             </p>
           </div>
           <h1 className=" mt-4 text-5xl font-bold text-emerald-300">
-            Donation Campaign
+            Wedding Planner
           </h1>
           <p className="py-6">
-            This project allows users to contribute to diverse categories,
-            visualize their impact, and monitor donation statistics
+          It is a comprehensive wedding planning platform, designed to help couples to plan their dream wedding with ease and efficiency. 
           </p>
 
           <div className="flex gap-3 ">

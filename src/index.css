@@ -38,3 +38,43 @@
     clip-path: polygon(49% 92%, 84% 84%, 97% 67%, 97% 30%, 78% 3%, 44% 0%, 18% 10%, 6% 46%, 15% 79%);
     animation: polygon 2s infinite alternate; 
 }
+
+.image-container {
+    height: 400px; 
+    width: 300px; 
+    overflow: hidden;
+    background-color: black;   
+    border-radius: 8px; 
+}
+
+.image-container .image1 {
+    background-image: url(./assets/project1.png);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: 3s ease-in-out;
+  }
+.image-container .image2 {
+    background-image: url(./assets/project2.png);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: 3s ease-in-out;
+  }
+.image-container .image3 {
+    background-image: url(./assets/project3.png);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    transition: 3s ease-in-out;
+  }
+
+  .image-container .image1:hover {
+    background-position: bottom ;
+  }
+  .image-container .image2:hover {
+    background-position: bottom ;
+  }
+  .image-container .image3:hover {
+    background-position: bottom ;
+  }

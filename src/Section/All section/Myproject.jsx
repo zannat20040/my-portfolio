@@ -10,8 +10,8 @@ const Myproject = () => {
         <p className="font-medium text-2xl text-emerald-400">03. My Projects</p>
       </div>
       <div>
-       <Project></Project>
        <Project2></Project2>
+       <Project></Project>
        <Project3></Project3>
       </div>
         </div>
