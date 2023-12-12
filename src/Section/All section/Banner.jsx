@@ -1,11 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { FaAngleDown } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { IoArrowDownCircleOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div className="py-56 flex flex-col justify-center">
+    <div className="py-56 flex flex-col justify-center" id="scrollToUp">
       <div className="max-w-4xl">
         <div className=" text-white">
           <p className="text-emerald-300">Hi, my name is </p>
@@ -36,7 +36,7 @@ const Banner = () => {
             Download resume
           </button>
 
-          <button className="btn border-0 text-black btn-outline bg-emerald-300">
+          <button className="btn btn-outline border-0 text-black bg-emerald-300 text-2xl ">
             <Link
               to="sectionToScroll"
               spy={true}
@@ -44,7 +44,7 @@ const Banner = () => {
               offset={-70}
               duration={500}
             >
-              <FaAngleDown />
+              <IoArrowDownCircleOutline />
             </Link>
           </button>
         </div>

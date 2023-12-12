@@ -21,7 +21,7 @@ const Navbar = () => {
         </>
       );
     return (
-        <div className="navbar text-black container mx-auto">
+        <div className="navbar text-black container mx-auto" >
           <div className="navbar-start">
             <div className="dropdown">
               <div
