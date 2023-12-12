@@ -6,7 +6,7 @@ const Main = () => {
  
   return (
     <>
-      <div className="bg-emerald-300 sticky top-0 z-50">
+      <div className="bg-accent sticky top-0 z-50">
         <Navbar></Navbar>
       </div>
       <Home></Home>

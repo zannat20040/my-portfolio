@@ -5,7 +5,7 @@ import { IoArrowDownCircleOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div className="py-56 flex flex-col justify-center" id="scrollToUp">
+    <div className=" pt-28 pb-56 flex flex-col justify-center" id="scrollToUp">
       <div className="max-w-4xl">
         <div className=" text-white">
           <p className="text-emerald-300">Hi, my name is </p>

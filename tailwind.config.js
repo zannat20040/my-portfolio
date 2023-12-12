@@ -8,9 +8,7 @@ export default {
     theme: {
       extend: {
         colors: {
-          customRed: '#ff0000',
-          customBlue: '#0000ff',
-          customGreen: '#00ff00',
+          accent: '#00cdb8',
         },
       },
     },

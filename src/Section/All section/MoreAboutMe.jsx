@@ -14,7 +14,7 @@ const MoreAboutMe = () => {
 
   return (
     <div>
-      <div className="mt-32 flex   justify-between items-center ">
+      <div className="mt-32 flex   justify-between items-center " id="scrollToSkils">
         <div>
           <button
             onClick={() => ShowEducation("Education")}

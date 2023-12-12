@@ -52,21 +52,21 @@
     background-size: cover;
     background-position: top;
     height: 100%;
-    transition: 3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 .image-container .image2 {
     background-image: url(./assets/project2.png);
     background-size: cover;
     background-position: top;
     height: 100%;
-    transition: 3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 .image-container .image3 {
     background-image: url(./assets/project3.png);
     background-size: cover;
     background-position: top;
     height: 100%;
-    transition: 3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 
   .image-container .image1:hover {
@@ -77,4 +77,16 @@
   }
   .image-container .image3:hover {
     background-position: bottom ;
+  }
+
+  .active {
+    background-color: #00cdb8!important;
+    color: black!important;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+  }
+  
+  .navbar ul li a:hover {
+    color: white;
+    background-color: transparent!important; 
   }
