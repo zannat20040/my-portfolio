@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from 'react-hot-toast';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 
 const Contact = () => {
   const form = useRef();
@@ -24,11 +27,12 @@ const Contact = () => {
         }
       );
   };
+  AOS.init();
 
   return (
     <div id="scrollToContact">
       <div>
-        <p className="font-medium text-2xl text-accent mt-28 mb-10">
+        <p data-aos="fade-right" className="font-medium text-2xl text-accent mt-28 mb-10">
           04. Contact with me
         </p>
       </div>
@@ -36,7 +40,7 @@ const Contact = () => {
       <div>
         <div className="hero ">
           <div className="hero-content  p-0 grid grid-cols-1 lg:grid-cols-2  items-center ">
-            <div className="card shrink-0 w-full  shadow-2xl bg-slate-950 rounded-none">
+            <div data-aos="zoom-in" className="card shrink-0 w-full  shadow-2xl bg-slate-950 rounded-none">
               <form className="card-body" ref={form} onSubmit={sendEmail}>
                 <div className="grid grid-cols-2 gap-2">
                   <div className="form-control">
@@ -87,7 +91,7 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            <div className="text-center lg:text-left ">
+            <div data-aos="zoom-in" className="text-center lg:text-left ">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7300.632820069064!2d90.36030580000003!3d23.807345100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702371865224!5m2!1sen!2sbd"
                 className="w-full"

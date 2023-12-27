@@ -11,16 +11,20 @@ import {
 import { LiaHtml5 } from "react-icons/lia";
 import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandJavascript } from "react-icons/tb";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const Skills = () => {
+  AOS.init();
+
   return (
     <div>
       <div className="mt-16 text-end">
-        <p className="font-medium text-2xl text-accent">02. My skills</p>
+        <p  data-aos="fade-left" className="font-medium text-2xl text-accent">02. My skills</p>
       </div>
-      <div className=" mt-20 grid grid-cols-1 md:grid-cols-2  gap-6 
+      <div  className=" mt-20 grid grid-cols-1 md:grid-cols-2  gap-6 
       ">
-        <div className="card  bg-slate-950 rounded-md shadow-xl">
+        <div data-aos="fade-right" className="card  bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-accent">Font-End</h2>
             <p>I use these languages, and frameworks used to create the user interface and design of websites.</p>
@@ -34,7 +38,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card  bg-slate-950 rounded-md shadow-xl">
+        <div data-aos="fade-left" className="card  bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-accent">Back-End</h2>
             <p className="flex-grow-0">I use these back-end languages and frameworks to handle server-side operations, manage databases.</p>
@@ -46,7 +50,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card   bg-slate-950 rounded-md shadow-xl">
+        <div  data-aos="fade-right" className="card   bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-accent">Cloud Services</h2>
             <p className="flex-grow-0">I utilize it to develop and manage the back-end infrastructure of a websites .</p>
@@ -57,7 +61,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="card  bg-slate-950 rounded-md shadow-xl">
+        <div data-aos="fade-left" className="card  bg-slate-950 rounded-md shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-accent">Tools</h2>
             <p  className="flex-grow-0">I utilize a combination of front-end and back-end along with these popular tools </p>

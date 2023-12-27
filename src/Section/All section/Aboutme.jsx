@@ -2,16 +2,20 @@ import React from "react";
 import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const Aboutme = () => {
+  AOS.init();
+
   return (
     <div id="sectionToScroll">
       <div className="">
-        <p className="font-medium text-2xl text-accent">01. Know me</p>
+        <p  data-aos="fade-right" className="font-medium text-2xl text-accent">01. Know me</p>
       </div>
       <div className="hero mt-10">
         <div className="hero-content p-0 grid grid-cols-1 justify-between lg:grid-cols-2 gap-6">
-          <div className="order-last lg:order-first">
+          <div  data-aos="zoom-in" className="order-last lg:order-first">
             <p className="py-6">
               I'm a web developer with a passion for transforming ideas into
               user-friendly and visually appealing websites. Committed to
@@ -41,7 +45,7 @@ const Aboutme = () => {
               <FaReact className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
             </div>
           </div>
-          <div className="order-first animated-element lg:order-last ">
+          <div data-aos="zoom-in" className="order-first animated-element lg:order-last ">
             <img
               src="https://i.ibb.co/QMmdXth/banner.png"
               className="rounded-lg shadow-2xl w-4/5 md:w-full bg-accent"

@@ -60,11 +60,14 @@ const Banner = () => {
     </>
   );
 
+// ..
+
+
   return (
     <div className=" pt-10 pb-56 flex flex-col justify-center" id="scrollToUp">
       <div className="">
         <div className=" text-white">
-          <p className="text-accent capitalize">Hi, my name is </p>
+          <p  className="text-accent capitalize">Hi, my name is </p>
           <h1 className="text-5xl font-bold mt-5 flex gap-4">
             <Typewriter
               options={{

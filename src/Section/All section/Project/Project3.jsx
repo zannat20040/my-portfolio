@@ -6,7 +6,7 @@ const Project3 = () => {
     <div className="hero mt-14">
       <div className="hero-content flex-col gap-10 lg:flex-row">
        
-        <div className="">
+        <div data-aos="fade-up"  className="">
          
           <h1 className=" mt-4 text-5xl font-bold text-accent">
             Job Market
@@ -51,7 +51,7 @@ const Project3 = () => {
             </a>
           </div>
         </div>
-        <div className="image-container ">
+        <div  className="image-container ">
           <div className="image3"></div>
         </div>
       </div>

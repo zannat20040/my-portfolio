@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 
 const MoreAboutMe = () => {
   const [showMore, setShowMore] = useState("Education");
@@ -11,6 +14,7 @@ const MoreAboutMe = () => {
   const ShowSkills = (skills) => {
     setShowMore(skills);
   };
+  AOS.init();
 
   return (
     <div>
@@ -29,7 +33,7 @@ const MoreAboutMe = () => {
             Technical Skills
           </button>
         </div>
-        <p className="font-medium text-2xl text-accent">
+        <p data-aos="fade-left" className="font-medium text-2xl text-accent">
           04. More About me
         </p>
       </div>
@@ -40,7 +44,7 @@ const MoreAboutMe = () => {
           {showMore === "Education" && (
             <div className=" card w-full  gap-3 ">
               <h1 className="text-3xl font-bold mt-5 text-white">Education</h1>
-              <div className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div data-aos="fade-left"  className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -54,7 +58,7 @@ const MoreAboutMe = () => {
                   </button>
                 </div>
               </div>
-              <div className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div  data-aos="fade-left" className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -68,7 +72,7 @@ const MoreAboutMe = () => {
                   </button>
                 </div>
               </div>
-              <div className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div data-aos="fade-left"  className="card  rounded-none  bg-slate-950 shadow-2xl">
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -92,7 +96,7 @@ const MoreAboutMe = () => {
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                <div>
-               <div className="">
+               <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">HTML5</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -100,7 +104,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">CSS3</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -108,7 +112,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">
                     Javascript
                   </p>
@@ -118,7 +122,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">
                     Tailwind
                   </p>
@@ -128,7 +132,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">React</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -136,7 +140,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">Node</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -147,7 +151,7 @@ const MoreAboutMe = () => {
                </div>
 
                 <div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">
                     Express
                   </p>
@@ -157,7 +161,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">
                     MongoDB
                   </p>
@@ -167,7 +171,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">Git</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -175,7 +179,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">Github</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -183,7 +187,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-left" className="">
                   <p className="text-accent font-medium text-lg">Figma</p>
                   <progress
                     className="progress w-full progress-accent"
@@ -191,7 +195,7 @@ const MoreAboutMe = () => {
                     max="100"
                   ></progress>
                 </div>
-                <div className="">
+                <div data-aos="fade-right" className="">
                   <p className="text-accent font-medium text-lg">
                     Vs Code
                   </p>

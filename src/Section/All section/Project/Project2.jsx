@@ -1,10 +1,14 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 
 const Project2 = () => {
+  AOS.init();
   return (
     <div className="hero mt-14">
       <div className="hero-content flex-col gap-10 lg:flex-row">
-        <div className="">
+        <div data-aos="fade-up" className="">
           <h1 className=" mt-4 text-5xl font-bold text-accent">Brand Shop</h1>
           <p className="py-6">
             It is an online E-commerce website for Beauty enthusiasts, makeup
