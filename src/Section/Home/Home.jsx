@@ -13,35 +13,38 @@ import { Link } from "react-scroll";
 const Home = () => {
   const sideNav = (
     <>
-       <li>
+      {/* <li>
       <a href="https://www.facebook.com/profile.php?id=100006368747141" target="_blank" >
         <FaFacebook />
       </a>
-    </li>
-    <li>
-      <a href="https://github.com/zannat20040" target="_blank" >
-        <FaGithub />
-      </a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2a33572a4/" target="_blank" >
-        <FaLinkedinIn />
-      </a>
-    </li>
+    </li> */}
+      <li>
+        <a href="https://github.com/zannat20040" target="_blank">
+          <FaGithub />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2a33572a4/"
+          target="_blank"
+        >
+          <FaLinkedinIn />
+        </a>
+      </li>
     </>
   );
   const sideNav2 = (
     <>
       <li>
-      <a href="mailto:zannatulhema0110@gmail.com">
-        <MdEmail />
-      </a>
-    </li>
-    <li>
-      <a href="tel:01602644264">
-        <IoCallSharp />
-      </a>
-    </li>
+        <a href="mailto:zannatulhema0110@gmail.com">
+          <MdEmail />
+        </a>
+      </li>
+      <li>
+        <a href="tel:01602644264">
+          <IoCallSharp />
+        </a>
+      </li>
     </>
   );
   return (
@@ -49,7 +52,6 @@ const Home = () => {
       <div className="grid grid-cols-5  md:grid-cols-6 gap-20 px-4 ">
         <div className="">
           <ul className=" hidden flex-col items-center menu rounded-box fixed bottom-3 md:flex justify-center gap-4   text-2xl z-30">
-         
             {sideNav}
             <div className="h-20 md:h-40 bg-accent w-[2px]"></div>
           </ul>

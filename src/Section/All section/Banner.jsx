@@ -10,7 +10,7 @@ import { IoArrowUpCircleOutline, IoCallSharp } from "react-icons/io5";
 const Banner = () => {
   const sideNav = (
     <>
-      <li>
+      {/* <li>
         <a
           className="bg-accent justify-center flex items-center text-black shadow-lg rounded-md w-14 h-14 p-3 "
           href="https://www.facebook.com/profile.php?id=100006368747141"
@@ -18,7 +18,7 @@ const Banner = () => {
         >
           <FaFacebook />
         </a>
-      </li>
+      </li> */}
       <li>
         <a
           className="bg-accent justify-center flex items-center text-black shadow-lg rounded-md w-14 h-14 p-3 "
