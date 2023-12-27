@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/Hema's Resume";
+import resume from "../../assets/Hema's Resume.pdf";
 import { Link } from "react-scroll";
 
 
