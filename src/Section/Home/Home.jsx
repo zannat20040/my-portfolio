@@ -25,7 +25,7 @@ const Home = () => {
       </li>
       <li>
         <a
-          href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2a33572a4/"
+          href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2305622a7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
         >
           <FaLinkedinIn />
