@@ -8,9 +8,7 @@ const Project = () => {
   return (
     <div className="hero mt-14">
       <div className="hero-content flex flex-col-reverse gap-10 lg:flex-row ">
-        <div className="image-container">
-          <div className="image1 "></div>
-        </div>
+        
         <div data-aos="fade-up"  className="">
           <h1 className=" mt-4 text-5xl font-bold text-accent">
             Wedding Planner
@@ -35,6 +33,9 @@ const Project = () => {
               </button>
             </a>
           </div>
+        </div>
+        <div className="image-container">
+          <div className="image1 "></div>
         </div>
       </div>
     </div>

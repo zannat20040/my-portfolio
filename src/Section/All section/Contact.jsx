@@ -1,38 +1,41 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from 'react-hot-toast';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
+import toast, { Toaster } from "react-hot-toast";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const Contact = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
-      .sendForm(
-        "service_rsvsjoo",
-        "template_lj3vm3x",
-        form.current,
-        "E-3JE6i7RKmny8lcN"
-      )
+      .sendForm('service_idgxafj', 'template_lj3vm3x', form.current, 'skh4cMNi2eS9c5Vg5')
       .then(
-        (result) => {
-          console.log(result);
-          toast.success('Message Sent!')
+        (response) => {
+          toast.success('Your mail has been sent.');
+          console.log('SUCCESS!', response.status, response.text);
+          form.current.reset()
         },
         (error) => {
-          console.log(error.text);
+          console.log('FAILED...', error);
+          toast.error('Failed to send mail. Please try again later.');
         }
       );
   };
+  
+
+
   AOS.init();
 
   return (
     <div id="scrollToContact">
       <div>
-        <p data-aos="fade-right" className="font-medium text-2xl text-accent mt-28 mb-10">
+        <p
+          data-aos="fade-right"
+          className="font-medium text-2xl text-accent mt-28 mb-10"
+        >
           04. Contact with me
         </p>
       </div>
@@ -40,7 +43,10 @@ const Contact = () => {
       <div>
         <div className="hero ">
           <div className="hero-content  p-0 grid grid-cols-1 lg:grid-cols-2  items-center ">
-            <div data-aos="zoom-in" className="card shrink-0 w-full  shadow-2xl bg-slate-950 rounded-none">
+            <div
+              data-aos="zoom-in"
+              className="card shrink-0 w-full  shadow-2xl bg-slate-950 rounded-none"
+            >
               <form className="card-body" ref={form} onSubmit={sendEmail}>
                 <div className="grid grid-cols-2 gap-2">
                   <div className="form-control">

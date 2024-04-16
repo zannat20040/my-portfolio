@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
-import resume from "../../assets/Hema's Resume.pdf";
+import resume from "../../assets/Resume of Hema.pdf";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoArrowUpCircleOutline, IoCallSharp } from "react-icons/io5";

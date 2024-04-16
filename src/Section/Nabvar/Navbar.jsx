@@ -1,21 +1,20 @@
 import React from "react";
-import resume from "../../assets/Hema's Resume.pdf";
+import resume from "../../assets/Resume of Hema.pdf";
 import { Link } from "react-scroll";
-
 
 const Navbar = () => {
   const navList = (
     <>
       <li>
-      <Link
+        <Link
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
           to="scrollToUp"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
           Home
         </Link>
@@ -26,52 +25,52 @@ const Navbar = () => {
             isPending ? "pending" : isActive ? "active" : ""
           }
           to="sectionToScroll"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
           About
         </Link>
       </li>
       <li>
-      <Link
+        <Link
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
           to="scrollToSkils"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
           Skills
         </Link>
       </li>
       <li>
-      <Link
+        <Link
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
           to="scrollToProjects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
           Projects
         </Link>
       </li>
       <li>
-      <Link
+        <Link
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
           to="scrollToContact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
         >
           Contact
         </Link>
@@ -112,9 +111,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a href={resume} download>
-        <button className="btn btn-outline rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
-          Resume
-        </button>
+          <button className="btn btn-outline rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
+            Resume
+          </button>
         </a>
       </div>
     </div>
