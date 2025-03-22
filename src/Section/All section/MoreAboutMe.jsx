@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import { IoArrowForwardCircleOutline } from "react-icons/io5";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
+import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const MoreAboutMe = () => {
   const [showMore, setShowMore] = useState("Education");
@@ -18,7 +16,10 @@ const MoreAboutMe = () => {
 
   return (
     <div>
-      <div className="mt-20 flex flex-wrap gap-4 flex-col-reverse lg:flex-row justify-between lg:items-center " id="scrollToSkils">
+      <div
+        className="mt-20 flex flex-wrap gap-4 flex-col-reverse lg:flex-row justify-between lg:items-center "
+        id="scrollToSkils"
+      >
         <div>
           <button
             onClick={() => ShowEducation("Education")}
@@ -40,11 +41,13 @@ const MoreAboutMe = () => {
 
       <div className="mt-14">
         <div className="flex flex-col w-full lg:flex-row gap-6">
-
           {showMore === "Education" && (
             <div className=" card w-full  gap-3 ">
               <h1 className="text-3xl font-bold mt-5 text-white">Education</h1>
-              <div data-aos="fade-left"  className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div
+                data-aos="fade-left"
+                className="card  rounded-none  bg-slate-950 shadow-2xl"
+              >
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -58,7 +61,10 @@ const MoreAboutMe = () => {
                   </button>
                 </div>
               </div>
-              <div  data-aos="fade-left" className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div
+                data-aos="fade-left"
+                className="card  rounded-none  bg-slate-950 shadow-2xl"
+              >
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -72,7 +78,10 @@ const MoreAboutMe = () => {
                   </button>
                 </div>
               </div>
-              <div data-aos="fade-left"  className="card  rounded-none  bg-slate-950 shadow-2xl">
+              <div
+                data-aos="fade-left"
+                className="card  rounded-none  bg-slate-950 shadow-2xl"
+              >
                 <div className="card-body ">
                   <div className="flex flex-wrap justify-between gap-2 items-end">
                     <h2 className="card-title text-accent">
@@ -95,116 +104,108 @@ const MoreAboutMe = () => {
                 Technial Skills
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-               <div>
-               <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">HTML5</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="90"
-                    max="100"
-                  ></progress>
+                <div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">HTML5</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="90"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">CSS3</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="90"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">
+                      Javascript
+                    </p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="80"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">Tailwind</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="90"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">React</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="70"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">Node</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="55"
+                      max="100"
+                    ></progress>
+                  </div>
                 </div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">CSS3</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="90"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">
-                    Javascript
-                  </p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="80"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">
-                    Tailwind
-                  </p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="90"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">React</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="70"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">Node</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="55"
-                    max="100"
-                  ></progress>
-                </div>
-               </div>
 
                 <div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">
-                    Express
-                  </p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="55"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">
-                    MongoDB
-                  </p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="60"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">Git</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="65"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">Github</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="65"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-left" className="">
-                  <p className="text-accent font-medium text-lg">Figma</p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="80"
-                    max="100"
-                  ></progress>
-                </div>
-                <div data-aos="fade-right" className="">
-                  <p className="text-accent font-medium text-lg">
-                    Vs Code
-                  </p>
-                  <progress
-                    className="progress w-full progress-accent"
-                    value="85"
-                    max="100"
-                  ></progress>
-                </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">Express</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="55"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">MongoDB</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="60"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">Git</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="65"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">Github</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="65"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-left" className="">
+                    <p className="text-accent font-medium text-lg">Figma</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="80"
+                      max="100"
+                    ></progress>
+                  </div>
+                  <div data-aos="fade-right" className="">
+                    <p className="text-accent font-medium text-lg">Vs Code</p>
+                    <progress
+                      className="progress w-full progress-accent"
+                      value="85"
+                      max="100"
+                    ></progress>
+                  </div>
                 </div>
               </div>
             </div>

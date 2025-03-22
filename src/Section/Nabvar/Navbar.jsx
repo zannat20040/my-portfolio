@@ -7,7 +7,7 @@ const Navbar = () => {
       <li>
         <Link
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : "rounded-none"
           }
           to="scrollToUp"
           spy={true}
@@ -21,7 +21,7 @@ const Navbar = () => {
       <li>
         <Link
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : "rounded-none"
           }
           to="sectionToScroll"
           spy={true}
@@ -35,7 +35,7 @@ const Navbar = () => {
       <li>
         <Link
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : "rounded-none"
           }
           to="scrollToSkils"
           spy={true}
@@ -49,7 +49,7 @@ const Navbar = () => {
       <li>
         <Link
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : "rounded-none"
           }
           to="scrollToProjects"
           spy={true}
@@ -63,7 +63,7 @@ const Navbar = () => {
       <li>
         <Link
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? "pending" : isActive ? "active" : "rounded-none"
           }
           to="scrollToContact"
           spy={true}
@@ -110,7 +110,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a href={resume} download>
-          <button className="px-6 py-2 rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
+          <button className="border duration-500 px-6 py-2 rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
             Resume
           </button>
         </a>

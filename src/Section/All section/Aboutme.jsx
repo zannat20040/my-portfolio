@@ -4,6 +4,8 @@ import { SiTailwindcss } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import MyPic from "../../assets/Hema.png";
+import { TbBrandNextjs } from "react-icons/tb";
+
 const Aboutme = () => {
   AOS.init();
 
@@ -18,8 +20,8 @@ const Aboutme = () => {
         <div className="hero-content p-0 grid grid-cols-1 justify-between lg:grid-cols-2 gap-6">
           <div data-aos="zoom-in" className="order-last lg:order-first">
             <p className="py-6">
-              I'm a web developer with a passion for transforming ideas into
-              user-friendly and visually appealing websites. Committed to
+              I&apos;m a web developer with a passion for transforming ideas
+              into user-friendly and visually appealing websites. Committed to
               staying on the cutting edge of technology, I stay up-to-date with
               the latest trends and tools in web development.
               <br />
@@ -33,17 +35,18 @@ const Aboutme = () => {
               <br />
               With a continuous hunger for learning and refining my craft, I am
               excited about the opportunity to collaborate on innovative
-              projects. Let's work together to bring your digital ideas to life
-              and create something truly remarkable!
+              projects. Let&apos;s work together to bring your digital ideas to
+              life and create something truly remarkable!
             </p>
             <div>
               <p className="text-accent">Best skills on </p>
             </div>
-            <div className="flex gap-4 mt-3 flex-wrap">
+            <div className="flex gap-2 mt-3 flex-wrap">
               <FaCss3Alt className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
               <SiTailwindcss className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
               <IoLogoJavascript className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
               <FaReact className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
+              <TbBrandNextjs className="bg-slate-950 shadow-lg rounded-md w-14 h-14 p-3 text-white" />
             </div>
           </div>
           <div
