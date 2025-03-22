@@ -1,6 +1,5 @@
-import React from "react";
 import Banner from "../All section/Banner";
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import {  FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoArrowUpCircleOutline, IoCallSharp } from "react-icons/io5";
 import Aboutme from "../All section/Aboutme";
@@ -13,20 +12,16 @@ import { Link } from "react-scroll";
 const Home = () => {
   const sideNav = (
     <>
-      {/* <li>
-      <a href="https://www.facebook.com/profile.php?id=100006368747141" target="_blank" >
-        <FaFacebook />
-      </a>
-    </li> */}
+ 
       <li>
-        <a href="https://github.com/zannat20040" target="_blank">
+        <a href="https://github.com/zannat20040" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
       </li>
       <li>
         <a
           href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2305622a7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <FaLinkedinIn />
         </a>

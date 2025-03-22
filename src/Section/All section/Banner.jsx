@@ -1,29 +1,20 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
 import resume from "../../assets/Resume of Hema.pdf";
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import {  FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { IoArrowUpCircleOutline, IoCallSharp } from "react-icons/io5";
+import {  IoCallSharp } from "react-icons/io5";
 
 const Banner = () => {
   const sideNav = (
     <>
-      {/* <li>
-        <a
-          className="bg-accent justify-center flex items-center text-black shadow-lg rounded-md w-14 h-14 p-3 "
-          href="https://www.facebook.com/profile.php?id=100006368747141"
-          target="_blank"
-        >
-          <FaFacebook />
-        </a>
-      </li> */}
       <li>
         <a
           className="bg-accent justify-center flex items-center text-black shadow-lg rounded-md w-14 h-14 p-3 "
           href="https://github.com/zannat20040"
           target="_blank"
+          rel="noreferrer"
         >
           <FaGithub />
         </a>
@@ -33,6 +24,7 @@ const Banner = () => {
           className="bg-accent justify-center flex items-center text-black shadow-lg rounded-md w-14 h-14 p-3 "
           href="https://www.linkedin.com/in/zannatul-ferdousi-hema-2305622a7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
+          rel="noreferrer"
         >
           <FaLinkedinIn />
         </a>
@@ -60,18 +52,20 @@ const Banner = () => {
     </>
   );
 
-// ..
-
+  // ..
 
   return (
     <div className=" pt-10 pb-56 flex flex-col justify-center" id="scrollToUp">
       <div className="">
         <div className=" text-white">
-          <p  className="text-accent capitalize">Hi, my name is </p>
+          <p className="text-accent capitalize">Hi, my name is </p>
           <h1 className="text-5xl font-bold mt-5 flex gap-4">
             <Typewriter
               options={{
-                strings: ["Zannatul Ferdousi Hema", "A Junior Web Developer"],
+                strings: [
+                  "Zannatul Ferdousi Hema",
+                  "A Frontend Developer | MERN Stack Driven",
+                ],
                 autoStart: true,
                 loop: true,
               }}
@@ -81,10 +75,11 @@ const Banner = () => {
             Specializing in designing and developing dynamic website.
           </p>
           <p className="pb-6">
-            Passionate and innovative web developer specializing in crafting
-            elegant, responsive websites. I blend creativity with precision,
-            building user-friendly interfaces and bringing digital visions to
-            life. Let's create something extraordinary together!
+            Passionate frontend developer with expertise in React, Next.js, and
+            the MERN stack. I blend creativity with precision to build
+            responsive, user-friendly websites that deliver exceptional
+            experiences. Let’s create something extraordinary and bring your
+            ideas to life!
           </p>
         </div>
         <ul className=" rounded-box flex md:hidden gap-4 text-2xl mb-6">

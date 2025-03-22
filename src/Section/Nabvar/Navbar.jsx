@@ -1,4 +1,3 @@
-import React from "react";
 import resume from "../../assets/Resume of Hema.pdf";
 import { Link } from "react-scroll";
 
@@ -111,7 +110,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a href={resume} download>
-          <button className="btn btn-outline rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
+          <button className="px-6 py-2 rounded-none hover:bg-slate-950 hover:text-white outline-0 text-black  bg-accent border-black">
             Resume
           </button>
         </a>
