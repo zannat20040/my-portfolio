@@ -1,7 +1,5 @@
-import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const Project2 = () => {
   AOS.init();
@@ -22,17 +20,29 @@ const Project2 = () => {
             <p className=" text-accent ">Mongodb</p>
           </div>
           <div className="flex gap-3 mt-4 flex-wrap">
-            <a href="https://github.com/zannat20040/HA-Beauty-Shop" target="_blank">
+            <a
+              href="https://github.com/zannat20040/HA-Beauty-Shop"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="border btn  py-4 px-16 bg-slate-950 text-white  rounded-md ">
                 Client code
               </button>
             </a>
-            <a href="https://github.com/zannat20040/HA-beauty-shop-server" target="_blank">
+            <a
+              href="https://github.com/zannat20040/HA-beauty-shop-server"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="border btn  py-4 px-16 bg-slate-950 text-white  rounded-md ">
                 Server code
               </button>
             </a>
-            <a href="https://brand-shop-3c930.web.app/" target="_blank">
+            <a
+              href="https://brand-shop-3c930.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="border btn py-2 px-16 bg-slate-950 text-white  rounded-md ">
                 Live
               </button>
