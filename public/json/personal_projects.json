@@ -1,25 +1,16 @@
 [
   {
-    "img": "projectImage1",
-    "title": "Content Writing Consultancy",
-    "description": "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
-    "technologies": ["React", "Tailwind CSS", "AOS", "JavaScript"],
-    "links": [
-      {
-        "site": "Client Code",
-        "url": "https://github.com/zannat20040/Content-writing-consultancy"
-      },
-      {
-        "site": "Live",
-        "url": "https://content-writing-consultancy.vercel.app/"
-      }
-    ]
-  },
-  {
     "img": "projectImage2",
     "title": "Sentinel Trust Bank",
     "description": "It is a multilevel transaction system for safe and efficient financial operations. It checks and approves transactions at different levels, making sure everything is secure and reliable.",
-    "technologies": ["Tailwind CSS", "React", "Node.js", "Mongoose", "Mongodb"],
+    "technologies": [
+      "Tailwind",
+      "React",
+      "Node",
+      "Mongoose",
+      "Mongodb",
+      "Firebase"
+    ],
     "links": [
       {
         "site": "Client Code",
@@ -36,15 +27,60 @@
     ]
   },
   {
+    "img": "projectImage7",
+    "title": "Gym Center",
+    "description": " It is an online fitness platform that helps people manage their fitness journey by connecting them with trainers, booking classes, and tracking progress easily.",
+    "technologies": [
+      "Tailwind",
+      "React",
+      "JavaScript",
+      "Node",
+      "Express",
+      "Mongodb",
+      "Firebase"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SpinFit-Gym-Center"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/zannat20040/SpinFit-server"
+      },
+      {
+        "site": "Live",
+        "url": "https://spinfit-610d6.web.app"
+      }
+    ]
+  },
+  {
+    "img": "projectImage1",
+    "title": "Content Writing Consultancy",
+    "description": "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
+    "technologies": ["React", "Tailwind", "AOS", "JavaScript"],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/Content-writing-consultancy"
+      },
+      {
+        "site": "Live",
+        "url": "https://content-writing-consultancy.vercel.app/"
+      }
+    ]
+  },
+  {
     "img": "projectImage3",
     "title": "Cosmatic Brand Shop",
     "description": "It is an online E-commerce website for Beauty enthusiasts, makeup lovers, skincare aficionado with various functionality.",
     "technologies": [
-      "Tailwind CSS",
+      "Tailwind",
       "React",
-      "Node.js",
-      "Express.js",
-      "Mongodb"
+      "Node",
+      "Express",
+      "Mongodb",
+      "Firebase"
     ],
     "links": [
       {
@@ -66,11 +102,12 @@
     "title": "Worky Online Job Market",
     "description": "It is an all-in-one platform that connects skilled people with exciting opportunities, and empowers employers to find the perfect fit for their team or company ",
     "technologies": [
-      "Tailwind CSS",
+      "Tailwind",
       "React",
-      "Node.js",
-      "Express.js",
-      "Mongodb"
+      "Node",
+      "Express",
+      "Mongodb",
+      "Firebase"
     ],
     "links": [
       {
@@ -91,7 +128,7 @@
     "img": "projectImage5",
     "title": "Wedding Planning Platform ",
     "description": " It is a comprehensive wedding planning platform, designed to help couples to plan their dream wedding with ease and efficiency. ",
-    "technologies": ["Tailwind CSS", "React", "JavaScript"],
+    "technologies": ["Tailwind", "React", "JavaScript", "Firebase"],
     "links": [
       {
         "site": "Client Code",

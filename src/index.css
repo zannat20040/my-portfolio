@@ -35,15 +35,32 @@
 .image-container .projectImage5 {
   background-image: url(./assets/project1.png);
 }
+.image-container .projectImage6 {
+  background-image: url(./assets/project5.jpeg);
+}
+.image-container .projectImage7 {
+  background-image: url(./assets/project6.jpeg);
+}
+.image-container .projectImage8 {
+  background-image: url(./assets/project7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
 .image-container .projectImage1:hover,
 .image-container .projectImage2:hover,
 .image-container .projectImage3:hover,
 .image-container .projectImage4:hover,
-.image-container .projectImage5:hover {
+.image-container .projectImage5:hover,
+.image-container .projectImage6:hover,
+.image-container .projectImage7:hover {
   background-position: bottom;
 }
 
+.image-container .projectImage8:hover {
+  background-position: right;
+}
 .active {
   background-color: #d4a421 !important;
   color: black !important;

@@ -1,13 +1,54 @@
 [
   {
-    "img": "http://krvjert.png",
-    "title": "Content Consultancy",
-    "description": "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
-    "technologies": ["React", "JavaScript", "AOS"],
+    "img": "projectImage6",
+    "title": "Foreign Education Consultancy",
+    "description": "A foreign education consultancy platform that helps students with university applications, visa processing, and career counseling. It includes a user-friendly dashboard, document management, and real-time application tracking.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB",
+      "Mongoose"
+    ],
     "links": [
       {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SGE-MAIN-CLIENT-NEXT-D/tree/main/Client-D"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/zannat20040/SGE-MAIN-CLIENT-NEXT-D/tree/main/Server-D"
+      },
+      {
         "site": "Live",
-        "url": "https://content-writing-consultancy.vercel.app/"
+        "url": "https://shabujglobal.com"
+      }
+    ]
+  },
+  {
+    "img": "projectImage8",
+    "title": "Finance Management System",
+    "description": "A finance management platform designed to track expenses, manage budgets, and generate financial reports. It helps businesses monitor financial transactions & budget management for employee",
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Javascript",
+      "Node",
+      "Mongoose",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SGE-Project02-Client"
+      },
+      {
+        "site": "Server Code",
+        "url": " https://github.com/sadmanryanriad/SGE-project02-Backend"
+      },
+      {
+        "site": "Live",
+        "url": "https://sge-finane.web.app"
       }
     ]
   }
