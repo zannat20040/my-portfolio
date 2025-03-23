@@ -1,0 +1,90 @@
+[
+  {
+    "img": "projectImage1",
+    "title": "Content Writing Consultancy",
+    "description": "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
+    "technologies": ["React", "Tailwind CSS", "AOS", "JavaScript"],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/Content-writing-consultancy"
+      },
+      {
+        "site": "Live",
+        "url": "https://content-writing-consultancy.vercel.app/"
+      }
+    ]
+  },
+  {
+    "img": "projectImage2",
+    "title": "Sentinel Trust Bank",
+    "description": "It is a multilevel transaction system for safe and efficient financial operations. It checks and approves transactions at different levels, making sure everything is secure and reliable.",
+    "technologies": ["Tailwind CSS", "React", "Node.js", "Mongoose", "Mongodb"],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/hexadev6/sentinel-bank-client"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/hexadev6/sentinel-bank-server"
+      },
+      {
+        "site": "Live",
+        "url": "https://sentinel-trust-bank.web.app"
+      }
+    ]
+  },
+  {
+    "img": "projectImage3",
+    "title": "Cosmatic Brand Shop",
+    "description": "It is an online E-commerce website for Beauty enthusiasts, makeup lovers, skincare aficionado with various functionality.",
+    "technologies": [
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Mongodb"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/HA-Beauty-Shop"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/zannat20040/HA-beauty-shop-server"
+      },
+      {
+        "site": "Live",
+        "url": "https://brand-shop-3c930.web.app"
+      }
+    ]
+  },
+  {
+    "img": "projectImage4",
+    "title": "Worky Online Job Market",
+    "description": "It is an all-in-one platform that connects skilled people with exciting opportunities, and empowers employers to find the perfect fit for their team or company ",
+    "technologies": [
+      "Tailwind CSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "Mongodb"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/Worky-job-market"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/zannat20040/Worky-server"
+      },
+      {
+        "site": "Live",
+        "url": "https://worky-7a37f.web.app"
+      }
+    ]
+  }
+]

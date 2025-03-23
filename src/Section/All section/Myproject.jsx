@@ -13,6 +13,8 @@ import {
   TabsBody,
   TabsHeader,
 } from "@material-tailwind/react";
+import personal_projects from "../../../public/json/personal_projects.json";
+import professional_projects from "../../../public/json/professional_projects.json";
 
 const Myproject = () => {
   AOS.init();
@@ -22,44 +24,12 @@ const Myproject = () => {
     {
       label: "Personal Creations",
       value: "personal",
-      projects: [
-        {
-          img: 'projectImage1',
-          title: "Content Writing Consultancy",
-          description:
-            "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
-          technologies: ["React", "Tailwind CSS", "AOS", "JavaScript"],
-          links: [
-            {
-              site: "Client Code",
-              url: "https://github.com/zannat20040/Content-writing-consultancy",
-            },
-            {
-              site: "Live",
-              url: "https://content-writing-consultancy.vercel.app/",
-            },
-          ],
-        },
-      ],
+      projects: personal_projects,
     },
     {
       label: "Industrial Projects",
       value: "professional",
-      projects: [
-        {
-          img: "http://krvjert.png",
-          title: "Content Consultancy",
-          description:
-            "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
-          technologies: ["React", "JavaScript", "AOS"],
-          links: [
-            {
-              site: "Live",
-              url: "https://content-writing-consultancy.vercel.app/",
-            },
-          ],
-        },
-      ],
+      projects: professional_projects,
     },
   ];
 

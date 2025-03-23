@@ -27,13 +27,7 @@
   height: 100%;
   transition: 1s ease-in-out;
 }
-.image-container .image2 {
-  background-image: url(./assets/project2.png);
-  background-size: cover;
-  background-position: top;
-  height: 100%;
-  transition: 1s ease-in-out;
-}
+
 .image-container .image3 {
   background-image: url(./assets/project3.png);
   background-size: cover;
@@ -41,25 +35,27 @@
   height: 100%;
   transition: 1s ease-in-out;
 }
-.image-container .image4 {
-  background-image: url(./assets/project0.png);
-}
 
 .image-container .projectImage1 {
   background-image: url(./assets/project4.png);
+}
+.image-container .projectImage2 {
+  background-image: url(./assets/project0.png);
+}
+.image-container .projectImage3 {
+  background-image: url(./assets/project2.png);
 }
 
 .image-container .image1:hover {
   background-position: bottom;
 }
-.image-container .image2:hover {
-  background-position: bottom;
-}
+
 .image-container .image3:hover {
   background-position: bottom;
 }
-.image-container .image4:hover,
-.image-container .projectImage1:hover {
+.image-container .projectImage1:hover,
+.image-container .projectImage2:hover,
+.image-container .projectImage3:hover {
   background-position: bottom;
 }
 

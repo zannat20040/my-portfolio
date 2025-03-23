@@ -1,0 +1,14 @@
+[
+  {
+    "img": "http://krvjert.png",
+    "title": "Content Consultancy",
+    "description": "It is an online platform for businesses and individuals seeking high-quality content writing services, SEO strategies, and digital marketing solutions with various functionalities to enhance your online presence.",
+    "technologies": ["React", "JavaScript", "AOS"],
+    "links": [
+      {
+        "site": "Live",
+        "url": "https://content-writing-consultancy.vercel.app/"
+      }
+    ]
+  }
+]
