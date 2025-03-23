@@ -6,7 +6,9 @@
     "technologies": [
       "Next.js",
       "TypeScript",
-      "Tailwind CSS",
+      "Tailwind",
+      "Firebase",
+      "Node",
       "MongoDB",
       "Mongoose"
     ],
@@ -33,6 +35,7 @@
       "React",
       "Tailwind",
       "Javascript",
+      "Firebase",
       "Node",
       "Mongoose",
       "MongoDB"
@@ -49,6 +52,33 @@
       {
         "site": "Live",
         "url": "https://sge-finane.web.app"
+      }
+    ]
+  },
+  {
+    "img": "projectImage9",
+    "title": "Foreign Student's Admission Mangement System",
+    "description": "A platform to help students manage their foreign university admissions from selection to successful enrollment.",
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "Node",
+      "Mongoose",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SGE-client"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/sadmanryanriad/SGE-Project01-Backend"
+      },
+      {
+        "site": "Live",
+        "url": "https://sge-project01.web.app"
       }
     ]
   }

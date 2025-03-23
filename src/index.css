@@ -47,6 +47,12 @@
   background-repeat: no-repeat;
   background-position: left;
 }
+.image-container .projectImage9 {
+  background-image: url(./assets/project8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
 
 .image-container .projectImage1:hover,
 .image-container .projectImage2:hover,
@@ -57,10 +63,11 @@
 .image-container .projectImage7:hover {
   background-position: bottom;
 }
-
-.image-container .projectImage8:hover {
+.image-container .projectImage8:hover, 
+.image-container .projectImage9:hover {
   background-position: right;
 }
+
 .active {
   background-color: #d4a421 !important;
   color: black !important;

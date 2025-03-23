@@ -1,7 +1,7 @@
 [
   {
     "img": "projectImage2",
-    "title": "Sentinel Trust Bank",
+    "title": "Multilevel Financial Transaction System",
     "description": "It is a multilevel transaction system for safe and efficient financial operations. It checks and approves transactions at different levels, making sure everything is secure and reliable.",
     "technologies": [
       "Tailwind",
