@@ -86,5 +86,21 @@
         "url": "https://worky-7a37f.web.app"
       }
     ]
+  },
+  {
+    "img": "projectImage5",
+    "title": "Wedding Planning Platform ",
+    "description": " It is a comprehensive wedding planning platform, designed to help couples to plan their dream wedding with ease and efficiency. ",
+    "technologies": ["Tailwind CSS", "React", "JavaScript"],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/Fate-Forever"
+      },
+      {
+        "site": "Live",
+        "url": "https://fateforever-4c243.web.app"
+      }
+    ]
   }
 ]

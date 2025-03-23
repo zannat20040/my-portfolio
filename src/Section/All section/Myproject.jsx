@@ -1,11 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Project from "./Project/Project";
-import Project2 from "./Project/Project2";
-import Project3 from "./Project/Project3";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import TeamProject from "./Project/TeamProject";
 import {
   Tab,
   TabPanel,
@@ -68,9 +65,9 @@ const Myproject = () => {
           {data.map(({ value, projects }) => (
             <TabPanel key={value} value={value}>
               {activeTab === value && (
-                <div>
+                <div >
                   {projects.map((project, index) => (
-                    <TeamProject key={index} project={project} />
+                    <Project key={index} project={project} />
                   ))}
                 </div>
               )}
