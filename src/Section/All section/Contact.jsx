@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
@@ -51,28 +51,28 @@ const Contact = () => {
                 <div className="grid grid-cols-2 gap-2">
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-cyan-400">
+                      <span className="label-text text-accent">
                         Your Name
                       </span>
                     </label>
                     <input
                       type="text"
                       placeholder="type here"
-                      className="input input-bordered input-accent rounded-none"
+                      className="input input-bordered border border-accent  rounded-none"
                       required
                       name="from_name"
                     />
                   </div>
                   <div className="form-control">
                     <label className="label">
-                      <span className="label-text text-cyan-400">
+                      <span className="label-text text-accent">
                         Your Email
                       </span>
                     </label>
                     <input
                       type="email"
                       placeholder="type here"
-                      className="input input-bordered input-accent rounded-none"
+                      className="input input-bordered border border-accent rounded-none"
                       required
                       name="from_email"
                     />
@@ -80,18 +80,18 @@ const Contact = () => {
                 </div>
                 <div className="form-control">
                   <label className="label">
-                    <span className="label-text text-cyan-400">
+                    <span className="label-text text-accent">
                       Your Message
                     </span>
                   </label>
                   <textarea
-                    className="textarea textarea-accent h-40 rounded-none"
+                    className="textarea border border-accent h-40 rounded-none"
                     placeholder="type here"
                     name="message"
                   ></textarea>
                 </div>
                 <div className="form-control mt-6">
-                  <button className="btn btn-accent rounded-none font-medium">
+                  <button className="btn text-black hover:bg-transparent hover:border-accent border hover:text-white bg-accent rounded-none font-medium">
                     Send
                   </button>
                 </div>
@@ -99,12 +99,12 @@ const Contact = () => {
             </div>
             <div data-aos="zoom-in" className="text-center lg:text-left ">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7300.632820069064!2d90.36030580000003!3d23.807345100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1702371865224!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7301.403815713292!2d90.35557450000002!3d23.793627099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1742809315632!5m2!1sen!2sbd"
                 className="w-full"
                 height="450"
                 allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>

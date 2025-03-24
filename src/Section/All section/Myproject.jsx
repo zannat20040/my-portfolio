@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Project from "./Project/Project";
+import Project from "./Project";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import {
