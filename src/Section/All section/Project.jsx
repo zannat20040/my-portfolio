@@ -9,7 +9,7 @@ const Project = ({ project }) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:flex-row">
         <div className="image-container ">
           <div
-            className={`${project?.img} bg-cover bg-top h-full  duration-500 transition-all ease-in-out `}
+            className={`${project?.img}  bg-cover bg-top h-full  duration-500 transition-all ease-in-out `}
           ></div>
         </div>
         <div data-aos="fade-up" className="">
