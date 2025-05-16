@@ -1,0 +1,57 @@
+[
+  {
+    "img": "projectImage8",
+    "title": "Finance Management System",
+    "description": "A finance management platform designed to track expenses, manage budgets, and generate financial reports. It helps businesses monitor financial transactions & budget management for employee",
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Javascript",
+      "Firebase",
+      "Node",
+      "Mongoose",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SGE-Project02-Client"
+      },
+      {
+        "site": "Server Code",
+        "url": " https://github.com/sadmanryanriad/SGE-project02-Backend"
+      },
+      {
+        "site": "Live",
+        "url": "https://sge-finane.web.app"
+      }
+    ]
+  },
+  {
+    "img": "projectImage9",
+    "title": "Foreign Student's Admission Mangement System",
+    "description": "A platform to help students manage their foreign university admissions from selection to successful enrollment.",
+    "technologies": [
+      "React",
+      "Tailwind",
+      "Firebase",
+      "Node",
+      "Mongoose",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "site": "Client Code",
+        "url": "https://github.com/zannat20040/SGE-client"
+      },
+      {
+        "site": "Server Code",
+        "url": "https://github.com/sadmanryanriad/SGE-Project01-Backend"
+      },
+      {
+        "site": "Live",
+        "url": "https://sge-project01.web.app"
+      }
+    ]
+  }
+]
